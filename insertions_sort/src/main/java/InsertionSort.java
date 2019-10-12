@@ -6,7 +6,7 @@ public class InsertionSort {
         }
     }
 
-    private static int[] insertionSort(int[] unsorted){
+    static int[] insertionSort(int[] unsorted){
         int[] sorted = new int[unsorted.length];
         sorted[0] = unsorted[0];
         for(int i=1; i<unsorted.length; i++){
