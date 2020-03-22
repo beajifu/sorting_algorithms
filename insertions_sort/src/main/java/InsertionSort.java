@@ -1,12 +1,6 @@
 public class InsertionSort {
-    public static void main(String[] args) {
-        int[] sortedList = insertionSort(new int[]{9,1,3,2,4,2,1});
-        for (int value : sortedList) {
-            System.out.println(value);
-        }
-    }
 
-    static int[] insertionSort(int[] unsorted){
+    static int[] sort(int[] unsorted){
         int[] sorted = new int[unsorted.length];
         sorted[0] = unsorted[0];
         for(int i=1; i<unsorted.length; i++){
@@ -21,4 +15,6 @@ public class InsertionSort {
 
         return sorted;
     }
+
+
 }

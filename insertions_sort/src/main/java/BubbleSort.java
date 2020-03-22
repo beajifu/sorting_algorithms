@@ -1,5 +1,5 @@
 class BubbleSort {
-    static int[] bubbleSort(int[] unsorted){
+    static int[] sort(int[] unsorted){
         int changeCount = 1;
         while(changeCount>0) {
             changeCount = 0;
